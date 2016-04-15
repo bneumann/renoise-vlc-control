@@ -9,7 +9,7 @@ To install VLC follow the instructions here: http://www.videolan.org/vlc/
 ### Manually
 Copy the de.newbucket.VlcCOntrol.xrnx to your ```%APPDATA%\Renoise\V3.1.0\Scripts\Tools directory```. For Windows 7 this would be ```C:\Users\benni\AppData\Roaming\Renoise\V3.1.0\Scripts\Tools```. Only if you happen to be benni of course, otherwise it's your name, duh!
 ### Automaticaly
-If Renoise accepts my commit I will post an automatic way here. So long please look for the manual way.
+If Renoise accepts my commit I will post an automatic way here. So long please look for the manual way or take the latest version from the ```release``` folder and drag-n-drop it over Renoise.
 
 ## Usage
 This is pretty easy. Once installed you will have an entry ```~Start VLC with remote interface``` under the ```Tools``` menu. If you click it VLC will start in foreground mode but you can minify it.
