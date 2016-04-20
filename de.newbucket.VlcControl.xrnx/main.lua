@@ -40,7 +40,9 @@ local function connect_vlc()
     return
   end
   print(connection_timeout)
-  client, socket_error = renoise.Socket.create_client("localhost", options.port,  renoise.Socket.PROTOCOL_TCP, connection_timeout)
+  local port = options.port
+  print(port)
+  client, socket_error = renoise.Socket.create_client("localhost", 53842,  renoise.Socket.PROTOCOL_TCP, connection_timeout)
   
   if socket_error then 
     renoise.app():show_warning("Failed to connect to VLC: " .. socket_error)
