@@ -12,7 +12,9 @@ Copy the de.newbucket.VlcCOntrol.xrnx to your ```%APPDATA%\Renoise\V3.1.0\Script
 If Renoise accepts my commit I will post an automatic way here. So long please look for the manual way or take the latest version from the ```release``` folder and drag-n-drop it over Renoise.
 
 ## Usage
-This is pretty easy. Once installed you will have an entry ```~Start VLC with remote interface``` under the ```Tools``` menu. If you click it VLC will start in foreground mode but you can minify it.
+This is pretty easy. Once installed you will have an entry ```~Start VLC with remote interface``` under the ```~Tools\~VLC Remote``` menu. If you click it VLC will start in foreground mode but you can minify it.
+
+If you don't have VLC installed under C:\Program Files (x86)\VideoLAN\VLC you can set a path here. It does not check if the vlc.exe (or vlc binary for Mac users) but you will get an error if VLC can't be started.
 
 If you load a video VLC starts this video. Unless your song is already playing you should __stop__ it and leave the control to Renoise. I haven't spend the effort yet to sync VLC backwards meaning Renoise can start the video, but VLC can't start the songs. This would be possible but I wanted to write music not code so I was a bit lazy. Feel free to help :)
 
