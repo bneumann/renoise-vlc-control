@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RenoiseScriptingTool doc_version="0">
-  <ApiVersion>5</ApiVersion>
-  <AutoUpgraded>true</AutoUpgraded>
-  <Id>de.newbucket.VlcControl</Id>
-  <Version>0.01</Version>
-  <Author>Benjamin Neumann | neumann.benni@gmail.com</Author>
   <Name>VLC Control</Name>
+  <Id>de.newbucket.VlcControl</Id>
+  <Version>0.02</Version>
+  <ApiVersion>5</ApiVersion>
+  <Author>Benjamin Neumann | neumann.benni@gmail.com</Author>
+  <AutoUpgraded>false</AutoUpgraded>
   <Category>Video</Category>
   <Description>Starts  VLC in remote control mode and tries its best to sync a video</Description>
   <Homepage>http://tools.renoise.com</Homepage>
+  <Platform/>
+  <Icon/>
 </RenoiseScriptingTool>
